@@ -18,9 +18,12 @@ const MainContainer = styled.div`
 `
 
 const InfoContainer = styled.div`
+    margin: 0 auto;
+    margin-bottom: 4px;
     background-color: pink;
-    width: 275px;
+    width: 250px;
     height: 175px;
+    border-radius: 5%;
         p {
             color: black;
         }
