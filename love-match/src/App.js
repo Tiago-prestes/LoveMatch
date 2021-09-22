@@ -1,10 +1,11 @@
-import { CardProfile } from './components/CardProfile/CardProfile';
+// import { CardProfile } from './components/CardProfile/CardProfile';
+import ScreenMatch from './pages/ScreenMatch/ScreenMatch';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <CardProfile></CardProfile>
-    </div>
+
+        <ScreenMatch></ScreenMatch>
+      
   );
 }
 
